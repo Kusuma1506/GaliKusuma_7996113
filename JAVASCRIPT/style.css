@@ -1,0 +1,58 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+  margin:20px;
+  line-height:1.6;
+}
+
+h1{
+  text-align:center;
+  color:#333;
+}
+
+.task{
+  background:white;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+  color:black;
+}
+
+button{
+  padding:10px 15px;
+  margin:5px;
+  border:none;
+  background:#0066cc;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#004999;
+}
+
+.event-card{
+  background:#eef;
+  padding:10px;
+  margin:10px 0;
+  border-radius:5px;
+}
+
+input, select{
+  padding:8px;
+  margin:5px;
+  width:250px;
+}
+
+.error{
+  color:red;
+}
+
+.success{
+  color:green;
+}

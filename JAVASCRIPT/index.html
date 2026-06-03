@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Event Portal</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<h1>Local Community Event Portal</h1>
+
+<!-- TASK 1 -->
+<div class="task">
+  <h2>Task 1 - JavaScript Basics & Setup</h2>
+  <p>Check Console for welcome message.</p>
+</div>
+
+<!-- TASK 2 -->
+<div class="task">
+  <h2>Task 2 - Syntax, Data Types, and Operators</h2>
+
+  <p>
+    This task demonstrates the use of JavaScript variables, data types,
+    template literals, and operators. The available seat count decreases
+    whenever a user registers for an event using the -- operator.
+  </p>
+
+  <div id="task2"></div>
+</div>
+
+
+<!-- TASK 3 -->
+<div class="task">
+  <h2>Task 3 - Conditionals, Loops, and Error Handling</h2>
+
+  <p>
+    This task uses conditional statements to check whether events are
+    available or full. The forEach() loop displays all events dynamically,
+    while try-catch handles registration errors safely.
+  </p>
+
+  <div id="task3"></div>
+</div>
+
+
+<!-- TASK 4 -->
+<div class="task">
+  <h2>Task 4 - Functions, Scope, Closures, Higher-Order Functions</h2>
+
+  <p>
+    This section demonstrates reusable JavaScript functions for adding
+    events, registering users, and filtering event categories. Closures
+    are used to track total registrations dynamically.
+  </p>
+
+  <div id="task4"></div>
+</div>
+
+
+<!-- TASK 5 -->
+<div class="task">
+  <h2>Task 5 - Objects and Prototypes</h2>
+
+  <p>
+    This task models real-world events using JavaScript classes and
+    prototypes. Event objects contain properties and methods such as
+    checking seat availability.
+  </p>
+
+  <div id="task5"></div>
+</div>
+
+
+<!-- TASK 6 -->
+<div class="task">
+  <h2>Task 6 - Arrays and Methods</h2>
+
+  <p>
+    This section demonstrates array operations such as adding new events,
+    filtering events by category, and formatting event names using map().
+  </p>
+
+  <div id="task6"></div>
+</div>
+
+
+<!-- TASK 7 -->
+<div class="task">
+  <h2>Task 7 - DOM Manipulation</h2>
+
+  <p>
+    This task dynamically creates and displays event cards using DOM
+    manipulation methods like createElement() and appendChild().
+  </p>
+
+  <div id="eventContainer"></div>
+</div>
+
+<!-- TASK 8 -->
+<div class="task">
+  <h2>Task 8 - Event Handling</h2>
+
+  <select id="categoryFilter">
+    <option value="all">All</option>
+    <option value="Music">Music</option>
+    <option value="Workshop">Workshop</option>
+  </select>
+
+  <input type="text" id="searchBox" placeholder="Search Event">
+
+  <button onclick="registerEvent()">Register</button>
+
+  <p id="task8"></p>
+</div>
+
+<!-- TASK 9 -->
+<div class="task">
+  <h2>Task 9 - Async JS, Promises, Async/Await</h2>
+
+  <button onclick="fetchEvents()">Fetch Events</button>
+
+  <p id="loading"></p>
+
+  <div id="task9"></div>
+</div>
+
+<!-- TASK 10 -->
+<div class="task">
+  <h2>Task 10 - Modern JavaScript Features</h2>
+
+  <div id="task10"></div>
+</div>
+
+<!-- TASK 11 -->
+<div class="task">
+  <h2>Task 11 - Working with Forms</h2>
+
+  <form id="registerForm">
+
+    <input type="text" name="username" placeholder="Enter Name">
+    <br>
+
+    <input type="email" name="email" placeholder="Enter Email">
+    <br>
+
+    <select name="eventName">
+      <option value="">Select Event</option>
+      <option value="Music Night">Music Night</option>
+      <option value="Baking Workshop">Baking Workshop</option>
+    </select>
+
+    <br>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+  <p id="formMessage"></p>
+
+</div>
+
+<!-- TASK 12 -->
+<div class="task">
+
+  <h2>Task 12 - AJAX & Fetch API</h2>
+
+  <button onclick="sendRegistration()">Send Registration</button>
+
+  <p id="task12"></p>
+
+</div>
+
+<!-- TASK 13 -->
+<div class="task">
+
+  <h2>Task 13 - Debugging and Testing</h2>
+
+  <p>Open Chrome Dev Tools → Console & Network Tab</p>
+
+</div>
+
+<!-- TASK 14 -->
+<div class="task">
+
+  <h2>Task 14 - jQuery and JS Frameworks</h2>
+
+  <button id="registerBtn">jQuery Click</button>
+
+  <div id="jqueryCard" class="event-card">
+    jQuery Event Card
+  </div>
+
+  
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
